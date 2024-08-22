@@ -4,13 +4,14 @@ import { Book } from "../models/book";
 
 /* 
 Reducers: Reducers copy current state and apply a dispatched action to the copy to create a new state.
+Takes in: Actions + Current State => New State
 ---------------------------------------
 
 ---------------------------------------
 */
 
 // Reducers always need an initial state    
-export const initalState: ReadonlyArray<Book> = [];
+export const initalState: Book[] = [];
 
 export const BookReducer =  createReducer(
     initalState,
