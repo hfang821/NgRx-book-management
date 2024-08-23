@@ -17,4 +17,8 @@ The props function takes a generic type parameter that defines the structure of 
 */
 
 export const AddBook = createAction('[Book] Add Book', props<Book>());
+export const AddBookSuccess = createAction('[Book] Added Book Successfully', props<Book>());
+export const AddBookFailure = createAction('[Book] Add book failure', props<{error: any}>());
+
+
 export const RemoveBook = createAction('[Book] Remove Book', props<{bookId: string}>());
