@@ -1,3 +1,7 @@
+# NgRx workflow (image from Angular Doc)
+
+![NgRx](https://github.com/user-attachments/assets/04a76f19-de07-4e09-ad0b-6c4c9d127040)
+
 # BookManagement
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
